@@ -1,0 +1,143 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Examples",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-Examples-Debug-23a23bf6dc670584ea38.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Examples"
+				},
+				{
+					"build" : "Examples/Test",
+					"jsonFile" : "directory-Examples.Test-Debug-d62d2636bb506e4d4c4b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Examples/Test",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Examples/TestVariablePtr",
+					"jsonFile" : "directory-Examples.TestVariablePtr-Debug-4c3646665451443dbf7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "Examples/TestVariablePtr",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "libargvs",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "Examples",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Test::@e232668a7e324b10d842",
+					"jsonFile" : "target-Test-Debug-b88b9cc3a7d5596d8cfc.json",
+					"name" : "Test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "TestVariablePtr::@0b45df5749d50d0f0395",
+					"jsonFile" : "target-TestVariablePtr-Debug-c79fc7cd6cad92ca460b.json",
+					"name" : "TestVariablePtr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libargvs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libargvs-Debug-33119386d66d829309ed.json",
+					"name" : "libargvs",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/workspace/libargvs/cmake-build-debug",
+		"source" : "D:/workspace/libargvs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
