@@ -1,7 +1,7 @@
-C版命名行库
-##兼容Windows、Linux、Mac
+Commands line parsing library  
+Compatible with Windows, Linux and MAC
 
-examples
+examples:
 ````
 struct avariable** cmode = NULL;
     
