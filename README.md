@@ -1,4 +1,4 @@
-Commands line parsing library  
+Command line parsing library  
 Compatible with Windows, Linux and MAC
 
 examples:
