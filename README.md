@@ -1,4 +1,4 @@
-#C版命名行库
+C版命名行库
 ##兼容Windows、Linux、Mac
 
 examples
