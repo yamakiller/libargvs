@@ -27,7 +27,11 @@
 
 struct avariable* av_malloc(int extern_size) {
     size_t msz = sizeof(struct avariable) + extern_size;
+#ifdef WIN32
     struct avariable* ptr = (struct avariable*)_aligned_malloc(msz, ALIGN_BIT);
+#else
+    struct avariable* ptr = (struct avariable*)aligned_malloc(msz, ALIGN_BIT);
+#endif
     assert(ptr);
     ptr->type = VT_NONE;
     return ptr;
@@ -233,8 +237,8 @@ void av_destory(struct avariable* ptr) {
             ar->array = NULL;
         }
     }
-    
-    _aligned_free(ptr);
+
+    free(ptr);
     ptr = NULL;
 }
 
